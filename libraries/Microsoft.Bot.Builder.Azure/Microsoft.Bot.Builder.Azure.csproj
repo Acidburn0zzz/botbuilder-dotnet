@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Version Condition=" '$(IsBuildServer)' == '' ">4.6.0-local</Version>
     <Version Condition=" '$(IsBuildServer)' != '' ">$(ReleasePackageVersion)</Version>
@@ -45,7 +45,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.21" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.24" />
     <PackageReference Include="AsyncUsageAnalyzers" Version="1.0.0-alpha003" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.2.0" />
     <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.1.2" />
